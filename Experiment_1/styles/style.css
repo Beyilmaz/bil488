@@ -1,0 +1,179 @@
+﻿@import url("layout.css");
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	background-color: #f2f2f7;
+	background-image: url("../images/background.gif");
+	background-repeat: repeat;
+	background-attachment: scroll;
+}
+#container {
+	width: 700px;
+	margin: 15px auto;
+}
+#masthead {
+	width: 698px;
+	border-top: 2px solid #dcdcdc;
+	border-right: 2px solid #a9a9a9;
+	border-bottom: 2px solid #808080;
+	border-left: 2px solid #a9a9a9;
+	background-color: #fafaff;
+	padding: 10px;
+}
+#content {
+	overflow: auto;
+	width: 698px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px 10px 5px 10px;
+	border-top: 2px solid #dcdcdc;
+	border-right: 2px solid #a9a9a9;
+	border-bottom: 2px solid #808080;
+	border-left: 2px solid #a9a9a9;
+	background-color: #fff;
+	text-align: center;
+}
+#sketch {
+	display: none;
+}
+#sketch_detail {
+	margin-left: 60px;
+	text-align: left;
+}
+#results {
+	padding: 10px;
+	width: 580px;
+	margin-left: 50px;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 717px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 2px solid #dcdcdc;
+	border-right: 2px solid #a9a9a9;
+	border-bottom: 2px solid #808080;
+	border-left: 2px solid #a9a9a9;
+	background-color: #fefeff;
+}
+/* Masthead Styles */
+#img1 {
+	float: left;
+}
+#masthead h1 {
+	text-align: center;
+	color: #3d6c87;
+}
+#masthead h3 {
+	text-align: center;
+	color: #5f8ea9;
+}
+#img2 {
+	float: right;
+}
+/* Content Styles */
+#content h2 {
+	color: #3d6c87;
+	text-align: left;
+	margin-left: 20px;
+}
+#content h4 {
+	color: #3d6c87;
+	text-align: right;
+	margin-right: 36px;
+}
+#content h3 {
+	color: #3d6c87;
+}
+#input1 {
+	padding: 5px;
+	border: 2px groove #26B3DE;
+	font-size: large;
+	color: #3D6C87;
+}
+#input2 {
+	background-color: #5FC5EC;
+	font-size: x-large;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	border-color: #18B3DF;
+	height: 35px;
+}
+#input3 {
+	background-color: #5FC5EC;
+	font-size: large;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	border: 2px groove #26B3DE;
+	
+}
+#input4 {
+	margin-left: 550px;
+	border: 2px groove #26B3DE;
+	color: #3D6C87;
+	width: 30px;
+	text-align: center;
+	font-size: small;
+}
+#input5 {
+	background-color: #5FC5EC;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	border-color: #18B3DF;
+
+}
+#sec {
+	font-size: xx-small;
+}
+#content span {
+	color: #3d6c87;
+}
+
+/* Sketch Styles */
+#sketch img {
+	float: left;
+}
+#sketch hr {
+	color: #5FC5EC;
+}
+/* Sketch_Detail Styles */
+span.user {
+	font-weight: bold;
+}
+span.username, span.date {
+	font-style: italic;
+}
+p.text {
+	color: #3d6c87;
+}
+/* Footer Styles */
+#footer p {
+	color: #33627d;
+	margin-top: 5px;
+}
+#sp1 {
+	color: #33627d;
+}
+#footer a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #33627d;
+	text-decoration: none;
+}
+a {
+	color: #5f8ea9;
+	text-decoration: underline;
+}
+a:hover {
+	color: #33627d;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
